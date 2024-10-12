@@ -1,4 +1,4 @@
-class Entities{
+export class Entities{
   id: number;
   isHumanoid: boolean;
   planet: string;
@@ -16,12 +16,3 @@ class Entities{
     return `Entity ${this.id} from ${this.planet}, Humanoid: ${this.isHumanoid}, Age: ${this.age}, Traits: ${this.traits.join(", ")}`;
 }
 }
-
-
-// just setting the workspace and trying some class manipulation not on json but on manual trials
-
-let entity1 = new Entities(1, true, "Asgard", 82, ["BULKY", "EXTRA_HEAD"]);
-let entity2 = new Entities(2, false, "Endor", 253, ["HAIRY", "TALL"]);
-
-console.log(entity1.toString());
-console.log(entity2.toString());
