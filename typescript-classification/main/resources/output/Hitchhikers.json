@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "isHumanoid": true,
+    "planet": "Betelgeuse",
+    "age": 59,
+    "traits": [
+      "EXTRA_ARMS",
+      "EXTRA_HEAD"
+    ]
+  },
+  {
+    "id": 16,
+    "isHumanoid": false,
+    "planet": "Vogsphere",
+    "age": 128,
+    "traits": [
+      "GREEN",
+      "BULKY"
+    ]
+  }
+]
