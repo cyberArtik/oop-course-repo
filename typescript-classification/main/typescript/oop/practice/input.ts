@@ -119,7 +119,7 @@ class JsonOutput {
         try {
             const jsonData = JSON.stringify(data, null, 2); 
             fs.writeFileSync(filePath, jsonData, 'utf8');
-            console.log(`GGWP ${filePath}`);
+            console.log(`Data has been sucessfully upload to the ${filePath}`);
         } catch (error) {
             console.error(`Something wrong with the write/copy into: ${error}`);
         }

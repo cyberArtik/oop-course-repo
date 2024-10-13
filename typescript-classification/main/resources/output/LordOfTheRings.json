@@ -1,0 +1,12 @@
+[
+  {
+    "id": 9,
+    "isHumanoid": true,
+    "planet": "Earth",
+    "age": 124,
+    "traits": [
+      "SHORT",
+      "BULKY"
+    ]
+  }
+]
